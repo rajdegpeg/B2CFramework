@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'B2CFramework_Example' do
+  pod 'B2CFramework', :path => '../'
+
+  target 'B2CFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
