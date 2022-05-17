@@ -1,5 +1,5 @@
 import XCTest
-import B2CFramework
+//import B2CFramework
 
 class Tests: XCTestCase {
     
